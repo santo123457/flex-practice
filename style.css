@@ -1,0 +1,110 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    background-color: #562EFF;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1FF;
+}
+.logo img {
+    width: 41px;
+    
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+.container {
+   
+    width:870px;
+    margin: 0 auto;
+    
+}
+.menu ul {
+    padding: 0px;
+    display: flex;
+    column-gap: 36px;
+}
+.menu li {
+list-style: none;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    display: flex;  
+    column-gap: 36px;
+}
+.top-section {
+    margin-top: 36px;
+    background-color: #fff;
+    padding: 33px;
+    border-radius: 1rem;
+}
+h3 {
+    margin : 0;
+}
+.top-player> div {
+display: flex;
+align-items: center;
+column-gap: 16px;
+font-weight: 500;
+flex-basis: 33.33333333%;
+}
+.top-player img{
+    width : 56px;
+
+}
+.top-player{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    row-gap: 29px;
+    padding-bottom: 30px;
+}
+hr{
+    border: 1px solid #D1D1D1
+}
+.single-blog{
+    display: flex;
+    flex-basis:50% ;
+    column-gap: 16px;
+    
+}
+.single-blog img{
+    max-width: 177px;
+    
+}
+.single-blog h2{
+    font-size:  20px;
+    font-weight:500;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap; 
+    row-gap: 16px;
+}
+.single-blog p {
+    color: #9F9F9F;
+    font-size:12px
+}
+.heighlight{
+    color: #562EFF;
+}
